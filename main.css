@@ -1,0 +1,54 @@
+.nav{
+background-color:#f7f7f7;
+}
+.nav a{
+position:relative;
+top:7px;
+color: #5a5a5a;
+margin-bottom:5px;
+font-size: 15px;
+font-weight: bold;
+padding-top: 25px;
+padding-bottom: 0px;
+padding-left: 10px;
+padding-right: 10px;
+text-transform: uppercase;
+}
+.nav li{
+display:inline;
+}
+.jumbotron .container{
+position: relative;
+top:100px;
+}
+.jumbotron{
+background-repeat:no-repeat;
+background-size:cover;
+position:relative;
+top:10px;
+
+background-image: url("party.jpg");
+height: 500px;
+
+}
+.jumbotron h1{
+color: #806600;
+font-size: 48px;
+font-family: 'Shift', sans-serif;
+font-weight: bold;
+}
+.jumbotron p{
+font-size: 20px;
+color: #806600;
+}
+.learn-more{
+background: -webkit-linear-gradient(90deg, #F0C27B 10%, #4B1248 90%); /* Chrome 10+, Saf5.1+ */
+}
+.learn-more h3{
+font-family: 'Shift', sans-serif;
+font-size: 18px;
+font-weight: bold;
+}
+.learn-more a{
+color: #00b0ff;
+}

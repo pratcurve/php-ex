@@ -105,6 +105,7 @@ function register($Username,$Name,$Email,$Gender,$Password,$Dob){
 		$stmnt->bind_param("ssssss",$Name,$Username,$Email,$Dob,$Password,$Gender);
 		$stmnt->execute();
 		$stmnt->close();
+		header("location:webpage.php");
 		
 	//	$sql = $conn->prepare("insert into login (Username,password) select Username,password from register where Username = ?");
 	//	$sql->bind_param("s",$Username);
